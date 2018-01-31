@@ -1,0 +1,114 @@
+body{
+    font-weight: 500;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(55, 44, 61);
+}
+.wrap{
+    max-width: 1400px;
+    min-width: 600px;
+    background-image:  url("http://www.onedesireministries.com/wp-content/uploads/2015/01/cropped-cropped-Meadow-Morning1-1030x687.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 662px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.main{
+    flex: 0 0 auto;
+    width: 33%;
+    height: auto;
+    background: rgba(227, 247, 242,0.8);
+    padding: 40px 10px;
+}
+
+button{
+    float: right;
+    -moz-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    -webkit-box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    box-shadow:inset 0px 0px 14px -3px #f2fadc;
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dbe6c4), color-stop(1, #5d9fa8));
+    background:-moz-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+    background:-webkit-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+    background:-o-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+    background:-ms-linear-gradient(top, #dbe6c4 5%, #9ba892 100%);
+    background:linear-gradient(to bottom, #83c7b0 5%, #5d9fa8 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dbe6c4', endColorstr='#9ba892',GradientType=0);
+    background-color:#dbe6c4;
+    -moz-border-radius:6px;
+    -webkit-border-radius:6px;
+    outline: none;
+    border-radius:6px;
+    border:1px solid #b2b8ad;
+    display:inline-block;
+    cursor:pointer;
+    color:#fcfcfc;
+    font-size:15px;
+    padding:12px 34px;
+    text-shadow:0px 1px 0px #ced9bf;
+    margin: 25px 25px 0px 0px;
+}
+button:hover {
+    background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #9ba892), color-stop(1, #dbe6c4));
+    background:-moz-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+    background:-webkit-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+    background:-o-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+    background:-ms-linear-gradient(top, #9ba892 5%, #dbe6c4 100%);
+    background:linear-gradient(to bottom, #83c7b0 5%, #87e6c2 100%);
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#9ba892', endColorstr='#dbe6c4',GradientType=0);
+    background-color:#9ba892;
+}
+button:active {
+    position:relative;
+    top:1px;
+}
+hr{
+    border: 1px solid #555555;
+    width: 120px;
+    margin: 30px auto 30px 37.5%;
+    color: rgba(192,164,209,0.94);
+}
+#quoteResult{
+    font-weight: 500;
+    font-size:1.75em;
+}
+#movie{
+    font-family: 'IM Fell English SC';
+    font-size:1.3em;
+}
+.button {
+    height: 58px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    outline: none;
+    font-size: 0.75em;
+    margin-top: 25px;
+    opacity: 1;
+    cursor: pointer;
+    background:linear-gradient(to top, #87e6c2 5%, #5d9fa8 100%);
+}
+.button:hover {
+     opacity:0.9;
+     background:#83c7b0;
+ }
+#twttr {
+    margin-left: 25px;
+}
+#twttr, #facebook-quote {
+    float:left;
+    padding:0px;
+    padding-top:8px;
+    text-align:center;
+    font-size:1.2em;
+    margin-right:5px;
+    height:30px;
+    width:40px;
+                }
